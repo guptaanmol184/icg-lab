@@ -38,17 +38,19 @@ def levy_c_curve(x, y, l, alpha, n):
         print('End:({},{})'.format(x_end, y_end))
         pygame.draw.line(screen, green, [x, y], [x_end, y_end], 1)
         pygame.display.flip()
-        pygame.time.delay(1500)
 
 # draw origin
 pygame.draw.line(screen, red, [300, 150], [300, 150], 1)
 pygame.display.flip()
 pygame.time.delay(1500)
 
-for i in range(itr_count+1):
-    print(i)
-    levy_c_curve(300, 150, length, angle, i)
+levy_c_curve(300, 150, length, angle, itr_count)
 
 pygame.display.flip()
 pygame.time.delay(2500)
 
+# hang indefinately
+while 1:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            sys.exit()
