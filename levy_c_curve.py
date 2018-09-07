@@ -4,12 +4,16 @@ import math as m
 # Set screen props
 size = width, height = 640, 360
 
+# define origin
+origin = 200, 150
+
 # define some colors
 black = 0, 0, 0
 white = 255, 255, 255
 green = 0, 255, 0
 red = 255, 0, 0
 blue = 0, 0, 255
+light_blue = 12, 50, 200
 bg_color = 32, 32, 32
 
 # initialize the screen
@@ -32,7 +36,7 @@ def levy_c_curve(x, y, l, alpha, n):
     else:
         x_end = int(x + (l * m.cos(m.radians(alpha))))
         y_end = int(y + (l * m.sin(m.radians(alpha))))
-        pygame.draw.line(screen, green, [x, y], [x_end, y_end], 1)
+        pygame.draw.line(screen, light_blue, [x, y], [x_end, y_end], 1)
         pygame.display.update()
 
 if __name__ == '__main__':
@@ -41,12 +45,13 @@ if __name__ == '__main__':
     angle = int(input('Enter the angle with the x axis (in degrees): ').strip())
 
     # draw origin (300, 150)
-    pygame.draw.line(screen, red, [300, 150], [300, 150], 1)
+    pygame.draw.line(screen, red, origin, origin, 1)
     pygame.display.update()
     pygame.time.delay(1500)
 
     # draw the c curve
-    levy_c_curve(300, 150, length, angle, itr_count)
+    x, y = origin
+    levy_c_curve(x, y, length, angle, itr_count)
 
     # update display
     pygame.display.update()
