@@ -35,7 +35,6 @@ def levy_c_curve(x, y, l, alpha, n):
     else:
         x_end = int(x + (l * m.cos(m.radians(alpha))))
         y_end = int(y + (l * m.sin(m.radians(alpha))))
-        print('End:({},{})'.format(x_end, y_end))
         pygame.draw.line(screen, green, [x, y], [x_end, y_end], 1)
         pygame.display.flip()
 
