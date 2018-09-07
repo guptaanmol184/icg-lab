@@ -9,16 +9,13 @@ black = 0, 0, 0
 white = 255, 255, 255
 green = 0, 255, 0
 red = 255, 0, 0
+blue = 0, 0, 255
+bg_color = 32, 32, 32
 
 # initialize the screen
 screen = pygame.display.set_mode(size)
-
-print('Enter the number of iterations to undergo: ')
-itr_count = int(input())
-print('Enter the length of the line')
-length = int(input())
-print('Enter the angle with the x axis')
-angle = int(input())
+screen.fill(bg_color)
+pygame.display.update()
 
 # Levy's C Curve
 #
@@ -36,20 +33,26 @@ def levy_c_curve(x, y, l, alpha, n):
         x_end = int(x + (l * m.cos(m.radians(alpha))))
         y_end = int(y + (l * m.sin(m.radians(alpha))))
         pygame.draw.line(screen, green, [x, y], [x_end, y_end], 1)
-        pygame.display.flip()
+        pygame.display.update()
 
-# draw origin
-pygame.draw.line(screen, red, [300, 150], [300, 150], 1)
-pygame.display.flip()
-pygame.time.delay(1500)
+if __name__ == '__main__':
+    itr_count = int(input('Enter the number of iterations to undergo: ').strip())
+    length = int(input('Enter the length of the line: ').strip())
+    angle = int(input('Enter the angle with the x axis (in degrees): ').strip())
 
-levy_c_curve(300, 150, length, angle, itr_count)
+    # draw origin (300, 150)
+    pygame.draw.line(screen, red, [300, 150], [300, 150], 1)
+    pygame.display.update()
+    pygame.time.delay(1500)
 
-pygame.display.flip()
-pygame.time.delay(2500)
+    # draw the c curve
+    levy_c_curve(300, 150, length, angle, itr_count)
 
-# hang indefinately
-while 1:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            sys.exit()
+    # update display
+    pygame.display.update()
+
+    # hang indefinately untill user exists
+    while 1:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                sys.exit()
