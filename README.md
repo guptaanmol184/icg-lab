@@ -5,6 +5,6 @@
 - [x] Bresenham's Circle Algo
 - [ ] Bayer's Demosiacing Algo
 - [x] Lévy C curve
-- [ ] Koch snowflake
+- [x] Koch snowflake
 - [ ] IIITDM Main Entrance
 - [ ] Dancing Animation
