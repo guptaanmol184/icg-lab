@@ -16,6 +16,7 @@ int main(void)
 	return 0;
 }
 
+// Bresenham's Circle Drawing Algorithm
 void bresenham_circle(int center_x, int center_y, int radius)
 {
 	// draw (0,r), (0,-r), (r,0), (-r,0)

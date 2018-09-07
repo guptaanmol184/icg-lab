@@ -7,6 +7,7 @@ void line_bresenham(int x0, int y0, int x1, int y1)
 {
     int delta_x, delta_y, decesion_param, x, y;
  
+	// calculate the deltas
     delta_x = x1-x0;
     delta_y = y1-y0;
  
