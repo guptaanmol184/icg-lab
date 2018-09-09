@@ -8,6 +8,13 @@ def print3darray(array):
     for array_row in array:
         print(array_row.tolist())
 
+def print3darray_tofile(title, array, filename):
+    f = open(filename, 'w')
+    print(title, file=f)
+    for array_row in array:
+        print(array_row.tolist(), file=f)
+    f.close()
+
 def convert_to_box(img, box_size):
     height, width, temp = img.shape
     img_box = np.zeros((height*box_size, width*box_size, 3), dtype=np.uint8)
@@ -40,12 +47,8 @@ for i in range(height):
 
 
 # print the updated box
-print('bayer filtered image captured:')
-print3darray(img)
+print3darray_tofile('Bayer filtered image captured:', img, 'rgb.txt')
 img_box = convert_to_box(img, box_size)
-# print3darray(img_box)
-# save the random image
-# Image.fromarray(img, 'RGB').save('rgb.png')
 Image.fromarray(img_box, 'RGB').save('rgb_box.png')
 
 # DEMOSAIC
@@ -80,6 +83,6 @@ for i in range(1, height-1):
         img_demosaic[i, j] = r + g + b
 
 # save demosaiced image
-print3darray(img_demosaic)
+print3darray_tofile('Demosaiced Image:', img_demosaic, 'demosaic.txt')
 img_demosaic_box = convert_to_box(img_demosaic, box_size)
 Image.fromarray(img_demosaic_box, 'RGB').save('demosaic_box.png')
