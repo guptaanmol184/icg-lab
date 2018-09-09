@@ -36,9 +36,8 @@ for i in range(height):
 
 # remove edge rows for display
 img_box_noedge = img_box[box_size:-box_size, box_size:-box_size, :]
-print(img_box.shape)
-print(img_box_noedge.shape)
 # save the random image
+Image.fromarray(img_box, 'RGB').save('rgb_edge.png')
 Image.fromarray(img_box_noedge, 'RGB').save('rgb.png')
 
 # remove the edges
