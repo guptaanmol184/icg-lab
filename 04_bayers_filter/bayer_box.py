@@ -4,9 +4,10 @@ import numpy as np
 from PIL import Image
 
 # generate a random image
-height = 73
-width = 128
-box_size = 10
+#73 128
+height = 10
+width = 10
+box_size = 50
 img = np.random.randint(0, 256, (height, width), np.uint8)
 img_box = np.zeros((height * box_size, width * box_size, 3), dtype=np.uint8)
 # generate img_box from img
@@ -33,8 +34,12 @@ for i in range(height):
                     j*box_size: j*box_size+(box_size-1),
                     2] = img[i, j]
 
+# remove edge rows for display
+img_box_noedge = img_box[box_size:-box_size, box_size:-box_size, :]
+print(img_box.shape)
+print(img_box_noedge.shape)
 # save the random image
-Image.fromarray(img_box, 'RGB').save('rgb.png')
+Image.fromarray(img_box_noedge, 'RGB').save('rgb.png')
 
 # remove the edges
 img_demosaic = img[1:-1, 1:-1]
