@@ -8,4 +8,4 @@
 - [x] Koch snowflake
   - [ ] Parallelize this
 - [ ] IIITDM Main Entrance
-- [ ] Dancing Animation
+- [x] Dancing Animation
