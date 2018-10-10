@@ -24,12 +24,12 @@ pygame.display.update()
 class Stick:
 
     color = 20, 50, 150
-    head_radius = 30
-    head_center_to_shoulder = 60
+    head_radius = 20
+    head_center_to_shoulder = 50
     shoulder_to_legs = 80
     thick = 2
     h_len = 40
-    l_len = 40
+    l_len = 50
     h_angle = -30 # in degrees
     l_angle = 30
 
@@ -95,8 +95,9 @@ if __name__ == '__main__':
 
     delay = 20 # delay in milliseconds
 
-    stickman = Stick(300, 70)
+    stickman = Stick(300, 100)
 
+    # do the hands
     for i in range(30, 60):
         pygame.time.wait(delay)
         stickman.update_angle(-i, i)
@@ -114,16 +115,42 @@ if __name__ == '__main__':
     for j in range(1):
         for i in range(300, 250, -1):
             pygame.time.wait(delay)
-            stickman.update_pos(i, 70)
+            stickman.update_pos(i, 100)
             stickman.draw()
         for i in range(250, 350):
             pygame.time.wait(delay)
-            stickman.update_pos(i, 70)
+            stickman.update_pos(i, 100)
             stickman.draw()
         for i in range(350, 250, -1):
             pygame.time.wait(delay)
-            stickman.update_pos(i, 70)
+            stickman.update_pos(i, 100)
             stickman.draw()
+
+    # jump
+    for j in range(1):
+        for i in range(100, 70, -1):
+            pygame.time.wait(delay)
+            stickman.update_pos(250, i)
+            stickman.draw()
+        for i in range(70, 100):
+            pygame.time.wait(delay)
+            stickman.update_pos(250, i)
+            stickman.draw()
+
+    # do the hands again
+    for i in range(30, 60):
+        pygame.time.wait(delay)
+        stickman.update_angle(-i, i)
+        stickman.draw()
+    for i in range(60, 30, -1):
+        pygame.time.wait(delay)
+        stickman.update_angle(-i, i)
+        stickman.draw()
+    for i, j in zip(range(30, 0, -1), range(30, 60)):
+        pygame.time.wait(delay)
+        stickman.update_angle(-i, j)
+        stickman.draw()
+
 
     while 1:
         for event in pygame.event.get():
