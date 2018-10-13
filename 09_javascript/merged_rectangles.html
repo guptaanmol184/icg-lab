@@ -1,0 +1,32 @@
+<html>
+    <style type="text/css">
+        #myCanvas {
+            border: 5px solid blue;
+        }
+    </style>
+    <title>ICG Exercise</title>
+    <body>
+        <canvas id="myCanvas" width="600" height="300"></canvas>
+    </body>
+    <script type="text/javascript">
+        var canvas = document.getElementById("myCanvas");
+        if (canvas.getContext) {
+            var ctx = canvas.getContext('2d');
+
+            ctx.globalCompositeOperation = 'lighter';
+
+            ctx.fillStyle = 'rgb(255, 0, 0)';
+            ctx.fillRect(10,100,200,150);
+
+            ctx.fillStyle = 'rgb(0, 255, 0)';
+            ctx.fillRect(40,40,200,150);
+
+            ctx.fillStyle = 'rgb(0, 0, 255)';
+            ctx.fillRect(140,140,200,150);
+        } else {
+            // canvas-unsupported code here
+            var canvas = document.getElementById("myCanvas");
+            canvas.innerHTML = "Your browser does not support drawing. Please use a updated browser.";
+        }
+    </script>
+</html>
