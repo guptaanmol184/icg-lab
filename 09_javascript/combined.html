@@ -1,0 +1,105 @@
+<html>
+    <style type="text/css">
+        #myCanvas {
+            border: 2px solid #5566ff;
+        }
+    </style>
+    <title>ICG Exercise</title>
+    <body>
+        <h3>CED15I021 ICG Javascript assignment.</h3>
+        <canvas id="myCanvas" width="550" height="450"></canvas>
+    </body>
+    <script type="text/javascript">
+        var canvas = document.getElementById("myCanvas");
+        if (canvas.getContext) {
+            var ctx = canvas.getContext('2d');
+
+            // 1. Three concentric rectangles with different colors
+            ctx.fillStyle = '#FF0000';
+            ctx.fillRect(10, 10, 120, 160);
+            ctx.fillStyle = '#FF7700';
+            ctx.fillRect(20, 20, 100, 140);
+            ctx.fillStyle = '#FFAA00';
+            ctx.fillRect(30, 30, 80, 120);
+
+            //2. Lot of circles with gray shades of single color
+            var x = 150;
+            var y = 20;
+            ctx.fillStyle = '#2F2F4F';
+            ctx.beginPath();
+            ctx.arc(50+x, 50+y, 35, 0, Math.PI * 2, true);
+            ctx.fill();
+            ctx.fillStyle = '#505070';
+            ctx.beginPath();
+            ctx.arc(100+x, 95+y, 29, 0, Math.PI * 2, true);
+            ctx.fill();
+            ctx.fillStyle = '#696989';
+            ctx.beginPath();
+            ctx.arc(140+x, 52+y, 27, 0, Math.PI * 2, true);
+            ctx.fill();
+            ctx.fillStyle = '#8080A0';
+            ctx.beginPath();
+            ctx.arc(177+x, 90+y, 22, 0, Math.PI * 2, true);
+            ctx.fill();
+            ctx.fillStyle = '#A0A0C0';
+            ctx.beginPath();
+            ctx.arc(202+x, 55+y, 18, 0, Math.PI * 2, true);
+            ctx.fill();
+            ctx.fillStyle = '#BFBFDF';
+            ctx.beginPath();
+            ctx.arc(224+x, 82+y, 13, 0, Math.PI * 2, true);
+            ctx.fill();
+            ctx.fillStyle = '#DCDCFC';
+            ctx.beginPath();
+            ctx.arc(241+x, 62+y, 9, 0, Math.PI * 2, true);
+            ctx.fill();
+
+            //3. Smiley
+            x = 10;
+            y = 220;
+
+            ctx.beginPath();
+            ctx.arc(75+x, 75+y, 50, 0, Math.PI * 2, true); // Outer circle
+            ctx.fillStyle = "#FFFF44";
+            ctx.fill();
+            
+            ctx.beginPath();
+            ctx.moveTo(110+x, 75+y);
+            ctx.arc(75+x, 75+y, 35, 0, Math.PI, false);  // Mouth (clockwise)
+            ctx.fillStyle = "#FF88FF";
+            ctx.fill();
+
+            ctx.beginPath();
+            ctx.moveTo(65+x, 65+y);
+            ctx.arc(60+x, 60+y, 5, 0, Math.PI * 2, true);  // Left eye
+            ctx.fillStyle = "#FFFFFF";
+            ctx.fill();
+
+            ctx.beginPath();
+            ctx.moveTo(95+x, 65+y);
+            ctx.arc(90+x, 60+y, 5, 0, Math.PI * 2, true);  // Right eye
+            ctx.fillStyle = "#FFFFFF";
+            ctx.fill();
+            //ctx.stroke();
+
+            //4. Intersected colored rectangles
+            ctx.globalCompositeOperation = 'lighter';
+            
+            x = 170;
+            y = 140;
+            
+            ctx.fillStyle = 'rgb(255, 0, 0)';
+            ctx.fillRect(10+x,100+y,180,130);
+
+            ctx.fillStyle = 'rgb(0, 255, 0)';
+            ctx.fillRect(40+x,40+y,180,130);
+
+            ctx.fillStyle = 'rgb(0, 0, 255)';
+            ctx.fillRect(140+x,140+y,180,130);
+        } else {
+            // canvas-unsupported code here
+            var canvas = document.getElementById("myCanvas");
+            canvas.innerHTML = "Your browser does not support drawing. Please use a updated browser.";
+        }
+    </script>
+</html>
