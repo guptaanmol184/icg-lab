@@ -1,0 +1,50 @@
+<html>
+    <style type="text/css">
+        #myCanvas {
+            border: 5px solid blue;
+        }
+    </style>
+    <title>ICG Exercise</title>
+    <body>
+        <canvas id="myCanvas" width="600" height="300"></canvas>
+    </body>
+    <script type="text/javascript">
+        var canvas = document.getElementById("myCanvas");
+        if (canvas.getContext) {
+            var ctx = canvas.getContext('2d');
+
+            ctx.fillStyle = '#0000FF';
+            ctx.beginPath();
+            ctx.arc(50, 50, 35, 0, Math.PI * 2, true);
+            ctx.fill();
+            ctx.fillStyle = '#0000DD';
+            ctx.beginPath();
+            ctx.arc(100, 95, 29, 0, Math.PI * 2, true);
+            ctx.fill();
+            ctx.fillStyle = '#0000BB';
+            ctx.beginPath();
+            ctx.arc(140, 52, 27, 0, Math.PI * 2, true);
+            ctx.fill();
+            ctx.fillStyle = '#000099';
+            ctx.beginPath();
+            ctx.arc(177, 90, 22, 0, Math.PI * 2, true);
+            ctx.fill();
+            ctx.fillStyle = '#000077';
+            ctx.beginPath();
+            ctx.arc(202, 55, 18, 0, Math.PI * 2, true);
+            ctx.fill();
+            ctx.fillStyle = '#000055';
+            ctx.beginPath();
+            ctx.arc(224, 82, 13, 0, Math.PI * 2, true);
+            ctx.fill();
+            ctx.fillStyle = '#000033';
+            ctx.beginPath();
+            ctx.arc(241, 62, 9, 0, Math.PI * 2, true);
+            ctx.fill();
+        } else {
+            // canvas-unsupported code here
+            var canvas = document.getElementById("myCanvas");
+            canvas.innerHTML = "Your browser does not support drawing. Please use a updated browser.";
+        }
+    </script>
+</html>
