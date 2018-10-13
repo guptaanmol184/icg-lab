@@ -1,0 +1,28 @@
+<html>
+    <style type="text/css">
+        #myCanvas {
+            border: 5px solid blue;
+        }
+    </style>
+    <title>ICG Exercise</title>
+    <body>
+        <canvas id="myCanvas" width="600" height="300"></canvas>
+    </body>
+    <script type="text/javascript">
+        var canvas = document.getElementById("myCanvas");
+        if (canvas.getContext) {
+            var ctx = canvas.getContext('2d');
+
+            ctx.fillStyle = '#FF0000';
+            ctx.fillRect(10, 10, 100, 120);
+            ctx.fillStyle = '#FF7700';
+            ctx.fillRect(20, 20, 80, 100);
+            ctx.fillStyle = '#FFAA00';
+            ctx.fillRect(30, 30, 60, 80);
+        } else {
+            // canvas-unsupported code here
+            var canvas = document.getElementById("myCanvas");
+            canvas.innerHTML = "Your browser does not support drawing. Please use a updated browser.";
+        }
+    </script>
+</html>
