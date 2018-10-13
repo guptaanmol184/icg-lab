@@ -1,0 +1,573 @@
+#block
+draw_line((  21,  283), (  73,  284))
+draw_line((  73,  284), (  65,  428))
+draw_line((  65,  428), (  16,  423))
+draw_line((  16,  423), (  21,  283))
+#block
+draw_line((   4,  323), (  18,  322))
+#block
+draw_line((   3,  413), (  15,  413))
+#block
+draw_line((  88,  285), ( 143,  280))
+draw_line(( 143,  280), ( 149,  175))
+draw_line(( 149,  175), (  43,  184))
+#block
+draw_line((  42,  185), (  45,  156))
+draw_line((  45,  156), (1091,   48))
+draw_line((1091,   48), (1093,   87))
+draw_line((1093,   87), (  42,  185))
+#block
+draw_line((  43,  184), (  84,  194))
+draw_line((  84,  194), (  82,  282))
+#block
+draw_line((  78,  283), (  78,  193))
+#block
+draw_line(( 196,  172), ( 188,  438))
+#block
+draw_line((  72,  283), (  90,  284))
+draw_line((  90,  284), (  83,  431))
+draw_line((  83,  431), (  64,  433))
+#block
+draw_line((  90,  311), ( 170,  307))
+draw_line(( 170,  307), ( 167,  430))
+draw_line(( 167,  430), ( 141,  430))
+draw_line(( 141,  430), ( 144,  394))
+draw_line(( 144,  394), (  83,  394))
+#block
+draw_line(( 141,  429), ( 111,  446))
+#block
+draw_line(( 188,  435), ( 166,  448))
+#block
+draw_line(( 442,  148), ( 437,  441))
+draw_line(( 437,  441), ( 494,  144))
+draw_line(( 494,  144), ( 492,  441))
+#block
+draw_line(( 497,  144), ( 496,  439))
+#block
+draw_line(( 440,  279), ( 493,  278))
+#block
+draw_line(( 439,  298), ( 489,  295))
+#block
+draw_line(( 809,  113), ( 814,  446))
+draw_line(( 814,  446), ( 848,  446))
+draw_line(( 848,  446), ( 845,  286))
+draw_line(( 845,  286), ( 994,  282))
+#block
+draw_line(( 814,  446), ( 813,  476))
+draw_line(( 813,  476), ( 892,  446))
+draw_line(( 892,  446), ( 922,  480))
+#block
+draw_line(( 898,  286), ( 902,  394))
+draw_line(( 902,  394), ( 998,  398))
+#block
+draw_line(( 903,  397), ( 889,  398))
+draw_line(( 889,  398), ( 894,  442))
+#block
+draw_line(( 995,  238), (1112,  230))
+draw_line((1112,  230), (1122,  448))
+draw_line((1122,  448), (1002,  444))
+draw_line((1002,  444), ( 995,  238))
+#block
+draw_line((1114,  447), (1118,  480))
+#block
+draw_line((1118,  367), (1140,  366))
+#block
+draw_line((1117,  342), (1139,  334))
+#block
+draw_line(( 931,  287), ( 933,  396))
+#block
+draw_line(( 963,  285), ( 968,  394))
+#block
+draw_line(( 905,  323), ( 995,  323))
+#block
+draw_line(( 112,  315), ( 106,  391))
+#block
+draw_line(( 127,  315), ( 123,  391))
+#block
+draw_line(( 144,  310), ( 140,  393))
+#block
+draw_line((  92,  339), ( 140,  340))
+#block
+draw_line(( 847,  392), ( 896,  387))
+#block
+draw_line(( 849,  438), ( 891,  439))
+#block
+draw_line(( 144,  390), ( 167,  389))
+#block
+draw_line(( 141,  430), ( 165,  430))
+#block
+draw_line(( 845,  309), ( 898,  306))
+#block
+draw_line(( 866,  308), ( 871,  430))
+draw_line(( 871,  430), ( 850,  429))
+#block
+draw_line(( 857,  391), ( 859,  440))
+#block
+draw_line(( 867,  391), ( 873,  440))
+#block
+draw_line(( 880,  390), ( 882,  440))
+#block
+draw_line((1025,  147), (1029,  233))
+#block
+draw_line((1092,   91), (1073,  111))
+draw_line((1073,  111), (1081,  230))
+#block
+draw_line((1070,   91), (1017,  155))
+#block
+draw_line((1058,  112), (1064,  228))
+#block
+draw_line(( 896,  110), ( 901,  242))
+#block
+draw_line(( 932,  105), ( 934,  158))
+#block
+draw_line(( 967,  104), ( 965,  155))
+#block
+draw_line(( 898,  162), (1015,  155))
+#block
+draw_line(( 495,  194), ( 808,  170))
+#block
+draw_line(( 497,  181), ( 515,  191))
+#block
+draw_line(( 495,  166), ( 535,  190))
+#block
+draw_line(( 498,  153), ( 556,  185))
+#block
+draw_line(( 498,  144), ( 572,  188))
+#block
+draw_line(( 523,  142), ( 591,  186))
+#block
+draw_line(( 534,  143), ( 593,  176))
+#block
+draw_line(( 556,  140), ( 621,  185))
+#block
+draw_line(( 587,  136), ( 644,  180))
+#block
+draw_line(( 616,  135), ( 670,  180))
+#block
+draw_line(( 645,  135), ( 695,  177))
+#block
+draw_line(( 674,  132), ( 720,  176))
+#block
+draw_line(( 704,  125), ( 751,  176))
+#block
+draw_line(( 736,  124), ( 774,  173))
+#block
+draw_line(( 772,  122), ( 802,  169))
+#block
+draw_line(( 532,  193), ( 531,  421))
+#block
+draw_line(( 579,  193), ( 578,  434))
+#block
+draw_line(( 531,  313), ( 577,  314))
+#block
+draw_line(( 532,  300), ( 576,  299))
+#block
+draw_line(( 503,  442), ( 573,  431))
+#block
+draw_line(( 496,  417), ( 532,  410))
+#block
+draw_line(( 203,  172), ( 201,  281))
+#block
+draw_line(( 201,  280), ( 313,  296))
+draw_line(( 313,  296), ( 315,  209))
+#block
+draw_line(( 277,  212), ( 275,  291))
+#block
+draw_line(( 204,  216), ( 441,  199))
+#block
+draw_line(( 323,  208), ( 319,  433))
+#block
+draw_line(( 196,  440), ( 320,  434))
+#block
+draw_line(( 199,  426), ( 313,  421))
+draw_line(( 313,  421), ( 314,  322))
+#block
+draw_line(( 296,  325), ( 292,  415))
+#block
+draw_line(( 254,  324), ( 248,  420))
+#block
+draw_line(( 201,  308), ( 312,  322))
+#block
+draw_line(( 201,  310), ( 198,  422))
+#block
+draw_line(( 188,  439), ( 318,  433))
+#block
+draw_line(( 204,  203), ( 234,  212))
+#block
+draw_line(( 203,  210), ( 214,  214))
+#block
+draw_line(( 204,  191), ( 272,  210))
+#block
+draw_line(( 205,  181), ( 290,  208))
+#block
+draw_line(( 234,  171), ( 337,  204))
+#block
+draw_line(( 274,  166), ( 381,  202))
+#block
+draw_line(( 302,  162), ( 400,  201))
+#block
+draw_line(( 339,  160), ( 424,  196))
+#block
+draw_line(( 352,  158), ( 441,  192))
+#block
+draw_line(( 395,  154), ( 443,  175))
+#block
+draw_line(( 401,  152), ( 442,  171))
+#block
+draw_line(( 431,  149), ( 442,  156))
+#block
+draw_line(( 203,  216), ( 443,  198))
+#block
+draw_line((  98,  181), ( 147,  193))
+#block
+draw_line(( 121,  179), ( 148,  185))
+#block
+draw_line((   4,  474), ( 176,  447))
+#block
+draw_line((1114,  473), (1138,  480))
+#block
+draw_line(( 495,  350), ( 809,  348))
+draw_line(( 809,  348), ( 812,  459))
+draw_line(( 812,  459), ( 495,  450))
+#block
+draw_line(( 499,  350), ( 500,  449))
+#block
+draw_line(( 188,  355), ( 436,  356))
+draw_line(( 436,  356), ( 435,  449))
+draw_line(( 435,  449), ( 187,  441))
+#block
+draw_line(( 190,  358), ( 188,  442))
+#block
+draw_line(( 212,  358), ( 215,  442))
+#block
+draw_line(( 264,  359), ( 265,  445))
+#block
+draw_line(( 315,  358), ( 315,  443))
+#block
+draw_line(( 353,  359), ( 354,  443))
+#block
+draw_line(( 396,  358), ( 400,  448))
+#block
+draw_line(( 499,  353), ( 811,  350))
+draw_line(( 811,  350), ( 812,  459))
+draw_line(( 812,  459), ( 497,  452))
+#block
+draw_line(( 545,  354), ( 545,  450))
+#block
+draw_line(( 602,  354), ( 603,  452))
+#block
+draw_line(( 648,  353), ( 653,  454))
+#block
+draw_line(( 690,  353), ( 690,  452))
+#block
+draw_line(( 727,  351), ( 726,  457))
+#block
+draw_line(( 760,  351), ( 763,  456))
+#block
+draw_line(( 251,  373), ( 294,  369))
+#block
+draw_line(( 322,  372), ( 426,  362))
+#block
+draw_line(( 497,  362), ( 530,  362))
+#block
+draw_line(( 580,  365), ( 752,  384))
+#block
+draw_line(( 586,  419), ( 637,  410))
+draw_line(( 637,  410), ( 680,  398))
+draw_line(( 680,  398), ( 721,  392))
+draw_line(( 721,  392), ( 752,  385))
+#block
+draw_line(( 760,  383), ( 782,  379))
+#block
+draw_line(( 781,  379), ( 803,  402))
+#block
+draw_line(( 778,  377), ( 805,  335))
+draw_line(( 805,  335), ( 812,  332))
+#block
+draw_line((  65,  160), (  65,  176))
+#block
+draw_line((  69,  174), (  71,  159))
+draw_line((  71,  159), (  76,  172))
+draw_line((  76,  172), (  77,  158))
+#block
+draw_line((  81,  159), (  80,  172))
+draw_line((  80,  172), (  86,  171))
+draw_line((  86,  171), (  87,  157))
+draw_line((  87,  157), (  83,  157))
+#block
+draw_line((  92,  155), (  92,  171))
+#block
+draw_line((  95,  173), ( 101,  156))
+draw_line(( 101,  156), ( 106,  173))
+#block
+draw_line((  98,  168), ( 105,  168))
+#block
+draw_line(( 109,  171), ( 109,  154))
+draw_line(( 109,  154), ( 118,  169))
+draw_line(( 118,  169), ( 119,  155))
+#block
+draw_line(( 128,  152), ( 128,  169))
+#block
+draw_line(( 131,  168), ( 134,  154))
+draw_line(( 134,  154), ( 141,  167))
+draw_line(( 141,  167), ( 140,  152))
+#block
+draw_line(( 154,  153), ( 148,  149))
+draw_line(( 148,  149), ( 145,  156))
+draw_line(( 145,  156), ( 153,  162))
+draw_line(( 153,  162), ( 148,  169))
+draw_line(( 148,  169), ( 145,  163))
+#block
+draw_line(( 156,  151), ( 165,  149))
+#block
+draw_line(( 161,  150), ( 159,  168))
+#block
+draw_line(( 168,  149), ( 169,  166))
+#block
+draw_line(( 174,  149), ( 184,  148))
+#block
+draw_line(( 179,  148), ( 177,  164))
+#block
+draw_line(( 186,  147), ( 183,  163))
+draw_line(( 183,  163), ( 194,  163))
+draw_line(( 194,  163), ( 195,  147))
+#block
+draw_line(( 199,  147), ( 206,  146))
+draw_line(( 206,  146), ( 203,  147))
+draw_line(( 203,  147), ( 203,  163))
+#block
+draw_line(( 211,  144), ( 221,  145))
+#block
+draw_line(( 211,  154), ( 218,  152))
+#block
+draw_line(( 212,  162), ( 219,  160))
+#block
+draw_line(( 211,  162), ( 211,  144))
+#block
+draw_line(( 228,  142), ( 238,  142))
+draw_line(( 238,  142), ( 238,  157))
+draw_line(( 238,  157), ( 228,  158))
+draw_line(( 228,  158), ( 228,  142))
+#block
+draw_line(( 245,  140), ( 244,  158))
+#block
+draw_line(( 245,  143), ( 253,  142))
+#block
+draw_line(( 246,  150), ( 253,  149))
+#block
+draw_line(( 263,  139), ( 261,  156))
+#block
+draw_line(( 269,  157), ( 269,  137))
+draw_line(( 269,  137), ( 276,  157))
+draw_line(( 276,  157), ( 277,  139))
+#block
+draw_line(( 282,  138), ( 281,  153))
+#block
+draw_line(( 282,  145), ( 290,  145))
+#block
+draw_line(( 283,  139), ( 291,  138))
+#block
+draw_line(( 296,  136), ( 306,  133))
+draw_line(( 306,  133), ( 305,  151))
+draw_line(( 305,  151), ( 293,  151))
+draw_line(( 293,  151), ( 296,  136))
+#block
+draw_line(( 310,  135), ( 312,  153))
+#block
+draw_line(( 312,  135), ( 321,  134))
+draw_line(( 321,  134), ( 319,  143))
+draw_line(( 319,  143), ( 311,  141))
+draw_line(( 311,  141), ( 321,  150))
+#block
+draw_line(( 326,  149), ( 326,  133))
+draw_line(( 326,  133), ( 333,  149))
+draw_line(( 333,  149), ( 337,  134))
+draw_line(( 337,  134), ( 339,  150))
+#block
+draw_line(( 344,  147), ( 349,  134))
+draw_line(( 349,  134), ( 356,  149))
+#block
+draw_line(( 345,  145), ( 355,  143))
+#block
+draw_line(( 355,  130), ( 367,  131))
+#block
+draw_line(( 361,  130), ( 361,  148))
+#block
+draw_line(( 370,  128), ( 369,  147))
+#block
+draw_line(( 377,  128), ( 388,  127))
+draw_line(( 388,  127), ( 389,  143))
+draw_line(( 389,  143), ( 377,  145))
+draw_line(( 377,  145), ( 377,  128))
+#block
+draw_line(( 394,  143), ( 393,  125))
+draw_line(( 393,  125), ( 404,  141))
+draw_line(( 404,  141), ( 406,  123))
+#block
+draw_line(( 417,  124), ( 428,  124))
+#block
+draw_line(( 421,  124), ( 422,  141))
+#block
+draw_line(( 433,  121), ( 432,  139))
+#block
+draw_line(( 433,  122), ( 442,  121))
+#block
+draw_line(( 435,  132), ( 442,  131))
+#block
+draw_line(( 433,  139), ( 442,  139))
+#block
+draw_line(( 458,  133), ( 450,  136))
+draw_line(( 450,  136), ( 447,  128))
+draw_line(( 447,  128), ( 451,  121))
+draw_line(( 451,  121), ( 458,  123))
+#block
+draw_line(( 463,  118), ( 463,  137))
+#block
+draw_line(( 473,  113), ( 473,  136))
+#block
+draw_line(( 464,  128), ( 472,  127))
+#block
+draw_line(( 481,  118), ( 479,  136))
+#block
+draw_line(( 480,  119), ( 489,  134))
+#block
+draw_line(( 489,  117), ( 488,  134))
+#block
+draw_line(( 496,  115), ( 507,  116))
+draw_line(( 507,  116), ( 507,  131))
+draw_line(( 507,  131), ( 498,  132))
+draw_line(( 498,  132), ( 496,  115))
+#block
+draw_line(( 514,  112), ( 514,  132))
+draw_line(( 514,  132), ( 525,  133))
+#block
+draw_line(( 540,  111), ( 528,  111))
+draw_line(( 528,  111), ( 529,  131))
+draw_line(( 529,  131), ( 542,  130))
+draw_line(( 542,  130), ( 540,  111))
+#block
+draw_line(( 560,  114), ( 553,  109))
+draw_line(( 553,  109), ( 547,  117))
+draw_line(( 547,  117), ( 555,  127))
+draw_line(( 555,  127), ( 563,  118))
+draw_line(( 563,  118), ( 556,  118))
+#block
+draw_line(( 563,  107), ( 571,  117))
+draw_line(( 571,  117), ( 578,  106))
+#block
+draw_line(( 574,  116), ( 573,  126))
+#block
+draw_line(( 593,  106), ( 594,  124))
+draw_line(( 594,  124), ( 604,  118))
+draw_line(( 604,  118), ( 592,  105))
+#block
+draw_line(( 610,  103), ( 610,  122))
+draw_line(( 610,  122), ( 623,  121))
+#block
+draw_line(( 611,  112), ( 621,  112))
+#block
+draw_line(( 612,  103), ( 622,  104))
+#block
+draw_line(( 638,  106), ( 633,  102))
+draw_line(( 633,  102), ( 628,  111))
+draw_line(( 628,  111), ( 638,  114))
+draw_line(( 638,  114), ( 630,  123))
+draw_line(( 630,  123), ( 626,  117))
+#block
+draw_line(( 646,   97), ( 649,  120))
+#block
+draw_line(( 667,  101), ( 660,   96))
+draw_line(( 660,   96), ( 654,  107))
+draw_line(( 654,  107), ( 661,  117))
+draw_line(( 661,  117), ( 668,  111))
+draw_line(( 668,  111), ( 662,  109))
+#block
+draw_line(( 674,  117), ( 674,   96))
+draw_line(( 674,   96), ( 684,  115))
+draw_line(( 684,  115), ( 687,   94))
+#block
+draw_line(( 702,  114), ( 711,   91))
+draw_line(( 711,   91), ( 722,  112))
+#block
+draw_line(( 709,  107), ( 720,  109))
+#block
+draw_line(( 728,  112), ( 728,   93))
+draw_line(( 728,   93), ( 740,  110))
+draw_line(( 740,  110), ( 740,   92))
+#block
+draw_line(( 748,  108), ( 748,   91))
+draw_line(( 748,   91), ( 761,   97))
+draw_line(( 761,   97), ( 750,  111))
+#block
+draw_line(( 781,  107), ( 780,   84))
+draw_line(( 780,   84), ( 789,  105))
+draw_line(( 789,  105), ( 795,   86))
+draw_line(( 795,   86), ( 795,  106))
+#block
+draw_line(( 803,  106), ( 812,   80))
+draw_line(( 812,   80), ( 821,  106))
+#block
+draw_line(( 806,  101), ( 818,  100))
+#block
+draw_line(( 826,  103), ( 826,   83))
+draw_line(( 826,   83), ( 839,  101))
+draw_line(( 839,  101), ( 841,   80))
+#block
+draw_line(( 848,   79), ( 849,   97))
+draw_line(( 849,   97), ( 854,   99))
+draw_line(( 854,   99), ( 859,   93))
+draw_line(( 859,   93), ( 861,   75))
+#block
+draw_line(( 867,   77), ( 868,  102))
+#block
+draw_line(( 869,   81), ( 882,   78))
+#block
+draw_line(( 871,   88), ( 877,   87))
+#block
+draw_line(( 891,   76), ( 886,   97))
+#block
+draw_line(( 891,   77), ( 902,   95))
+#block
+draw_line(( 889,   91), ( 898,   90))
+#block
+draw_line(( 919,   78), ( 910,   69))
+draw_line(( 910,   69), ( 901,   86))
+draw_line(( 901,   86), ( 914,   93))
+draw_line(( 914,   93), ( 920,   88))
+#block
+draw_line(( 924,   73), ( 941,   69))
+#block
+draw_line(( 935,   73), ( 936,   98))
+#block
+draw_line(( 949,   68), ( 952,   88))
+draw_line(( 952,   88), ( 956,   90))
+draw_line(( 956,   90), ( 962,   85))
+draw_line(( 962,   85), ( 963,   70))
+#block
+draw_line(( 971,   68), ( 970,   90))
+#block
+draw_line(( 972,   69), ( 988,   69))
+draw_line(( 988,   69), ( 975,   78))
+draw_line(( 975,   78), ( 991,   89))
+#block
+draw_line(( 997,   65), ( 998,   88))
+#block
+draw_line((1006,   85), (1008,   66))
+draw_line((1008,   66), (1021,   84))
+draw_line((1021,   84), (1021,   63))
+#block
+draw_line((1044,   65), (1036,   57))
+draw_line((1036,   57), (1028,   70))
+draw_line((1028,   70), (1041,   84))
+draw_line((1041,   84), (1047,   74))
+draw_line((1047,   74), (1038,   71))
+#block
+draw_line((  83,  432), ( 187,  440))
+#block
+draw_line(( 436,  442), ( 495,  445))
+#block
+draw_line(( 890,  245), ( 995,  242))
+#block
+draw_line(( 907,  467), (1115,  473))
+#block
+draw_line(( 887,  246), ( 879,  108))

@@ -1,0 +1,291 @@
+#!/usr/bin/env python
+import pygame, sys
+
+# Set screen props
+size = width, height = 1140, 480
+
+# define some colors
+black = 0, 0, 0
+white = 255, 255, 255
+green = 0, 255, 0
+red = 255, 0, 0
+blue = 0, 0, 255
+light_blue = 12, 50, 200
+bg_color = 32, 32, 32
+
+# initialize the screen
+screen = pygame.display.set_mode(size)
+screen.fill(bg_color)
+pygame.display.update()
+
+def draw_line(p1, p2):
+    pygame.draw.line(screen, white, p1, p2, 1)
+
+def debig_point(p):
+    pygame.draw.line(screen, red, p, p, 3)
+
+
+pygame.display.update()
+
+#block
+draw_line((   1,  324), (  20,  325))
+#block
+draw_line((   2,  413), (  17,  414))
+#block
+draw_line((  15,  426), (  22,  285))
+draw_line((  22,  285), (  72,  284))
+draw_line((  72,  284), (  65,  434))
+draw_line((  65,  434), (  15,  426))
+#block
+draw_line((  72,  283), (  88,  285))
+draw_line((  88,  285), (  82,  430))
+draw_line((  82,  430), (  64,  434))
+#block
+draw_line((  86,  285), ( 191,  280))
+draw_line(( 191,  280), ( 188,  432))
+draw_line(( 188,  432), ( 166,  430))
+draw_line(( 166,  430), ( 170,  309))
+draw_line(( 170,  309), (  88,  312))
+#block
+draw_line((  89,  394), ( 140,  395))
+draw_line(( 140,  395), ( 141,  441))
+draw_line(( 141,  441), (  82,  438))
+#block
+draw_line((  94,  313), (  92,  341))
+draw_line((  92,  341), ( 109,  341))
+draw_line(( 109,  341), ( 111,  315))
+#block
+draw_line(( 109,  339), ( 125,  341))
+draw_line(( 125,  341), ( 127,  313))
+#block
+draw_line(( 126,  338), ( 141,  339))
+draw_line(( 141,  339), ( 142,  312))
+#block
+draw_line(( 109,  341), ( 107,  394))
+#block
+draw_line(( 126,  340), ( 124,  394))
+#block
+draw_line(( 143,  279), ( 149,  174))
+draw_line(( 149,  174), ( 195,  170))
+draw_line(( 195,  170), ( 191,  280))
+#block
+draw_line((  85,  283), (  90,  194))
+draw_line((  90,  194), (  81,  193))
+draw_line((  81,  193), (  76,  281))
+#block
+draw_line((  80,  195), (  43,  185))
+draw_line((  43,  185), (  45,  158))
+draw_line((  45,  158), (1091,   47))
+draw_line((1091,   47), (1095,   91))
+draw_line((1095,   91), (  52,  185))
+#block
+draw_line((  89,  194), (  55,  182))
+#block
+draw_line(( 442,  148), ( 437,  441))
+draw_line(( 437,  441), ( 493,  441))
+draw_line(( 493,  441), ( 494,  144))
+#block
+draw_line(( 438,  279), ( 492,  278))
+#block
+draw_line(( 439,  297), ( 492,  295))
+#block
+draw_line(( 497,  145), ( 495,  440))
+#block
+draw_line(( 810,  115), ( 814,  445))
+#block
+draw_line(( 885,  106), ( 892,  245))
+#block
+draw_line(( 893,  245), ( 995,  242))
+draw_line(( 995,  242), ( 996,  280))
+draw_line(( 996,  280), ( 846,  285))
+draw_line(( 846,  285), ( 849,  444))
+draw_line(( 849,  444), ( 815,  446))
+#block
+draw_line(( 848,  444), ( 894,  444))
+draw_line(( 894,  444), ( 895,  453))
+draw_line(( 895,  453), ( 906,  453))
+draw_line(( 906,  453), ( 909,  468))
+draw_line(( 909,  468), ( 812,  465))
+draw_line(( 812,  465), ( 816,  446))
+#block
+draw_line(( 997,  240), (1002,  444))
+draw_line((1002,  444), (1122,  447))
+draw_line((1122,  447), (1111,  233))
+draw_line((1111,  233), ( 997,  240))
+#block
+draw_line((1116,  343), (1141,  336))
+#block
+draw_line((1117,  366), (1141,  368))
+#block
+draw_line(( 900,  287), ( 903,  324))
+draw_line(( 903,  324), ( 932,  324))
+draw_line(( 932,  324), ( 932,  287))
+#block
+draw_line(( 932,  321), ( 965,  321))
+draw_line(( 965,  321), ( 964,  283))
+#block
+draw_line(( 964,  322), ( 996,  322))
+#block
+draw_line(( 964,  322), ( 967,  393))
+draw_line(( 967,  393), (1000,  395))
+#block
+draw_line(( 932,  323), ( 935,  395))
+draw_line(( 935,  395), ( 967,  394))
+#block
+draw_line(( 903,  323), ( 907,  394))
+draw_line(( 907,  394), ( 935,  392))
+draw_line(( 935,  392), ( 494,  352))
+draw_line(( 494,  352), ( 812,  349))
+#block
+draw_line(( 495,  450), ( 814,  456))
+#block
+draw_line(( 527,  352), ( 531,  449))
+#block
+draw_line(( 562,  356), ( 563,  450))
+#block
+draw_line(( 600,  354), ( 599,  453))
+#block
+draw_line(( 631,  355), ( 634,  452))
+#block
+draw_line(( 670,  354), ( 671,  454))
+#block
+draw_line(( 699,  352), ( 699,  454))
+#block
+draw_line(( 730,  352), ( 737,  454))
+#block
+draw_line(( 772,  350), ( 771,  458))
+#block
+draw_line(( 190,  355), ( 435,  357))
+draw_line(( 435,  357), ( 428,  447))
+draw_line(( 428,  447), ( 187,  438))
+draw_line(( 187,  438), ( 190,  355))
+#block
+draw_line(( 212,  358), ( 209,  441))
+#block
+draw_line(( 255,  359), ( 252,  444))
+#block
+draw_line(( 281,  446), ( 282,  358))
+#block
+draw_line(( 315,  358), ( 315,  444))
+#block
+draw_line(( 351,  356), ( 352,  445))
+#block
+draw_line(( 391,  355), ( 391,  447))
+#block
+draw_line(( 411,  357), ( 407,  448))
+#block
+draw_line(( 275,  210), ( 319,  206))
+draw_line(( 319,  206), ( 316,  299))
+draw_line(( 316,  299), ( 275,  293))
+draw_line(( 275,  293), ( 275,  210))
+#block
+draw_line(( 534,  193), ( 533,  436))
+draw_line(( 533,  436), ( 579,  432))
+draw_line(( 579,  432), ( 578,  190))
+draw_line(( 578,  190), ( 534,  193))
+#block
+draw_line(( 203,  217), ( 441,  200))
+#block
+draw_line(( 497,  196), ( 810,  172))
+#block
+draw_line(( 898,  165), (1016,  155))
+#block
+draw_line((1016,  157), (1070,   98))
+#block
+draw_line((1075,  110), (1092,   89))
+#block
+draw_line((1060,  112), (1065,  232))
+draw_line((1065,  232), (1082,  230))
+draw_line((1082,  230), (1074,  112))
+#block
+draw_line((1024,  147), (1032,  237))
+#block
+draw_line(( 933,  109), ( 936,  162))
+#block
+draw_line(( 968,  103), ( 963,  159))
+#block
+draw_line(( 894,  108), ( 908,  160))
+#block
+draw_line(( 774,  121), ( 802,  169))
+#block
+draw_line(( 739,  123), ( 776,  174))
+#block
+draw_line(( 706,  127), ( 748,  175))
+#block
+draw_line(( 673,  128), ( 718,  175))
+#block
+draw_line(( 647,  130), ( 696,  176))
+#block
+draw_line(( 613,  133), ( 668,  180))
+#block
+draw_line(( 587,  136), ( 648,  180))
+#block
+draw_line(( 555,  139), ( 621,  185))
+#block
+draw_line(( 530,  140), ( 600,  183))
+#block
+draw_line(( 498,  152), ( 561,  184))
+#block
+draw_line(( 496,  167), ( 538,  191))
+#block
+draw_line(( 498,  181), ( 513,  189))
+#block
+draw_line(( 398,  152), ( 440,  173))
+#block
+draw_line(( 377,  157), ( 440,  186))
+#block
+draw_line(( 345,  159), ( 439,  197))
+#block
+draw_line(( 327,  159), ( 423,  195))
+#block
+draw_line(( 301,  166), ( 402,  200))
+#block
+draw_line(( 280,  167), ( 379,  200))
+#block
+draw_line(( 254,  167), ( 360,  203))
+#block
+draw_line(( 232,  170), ( 343,  203))
+#block
+draw_line(( 212,  170), ( 319,  206))
+#block
+draw_line(( 204,  184), ( 274,  208))
+#block
+draw_line(( 205,  202), ( 232,  212))
+#block
+draw_line(( 203,  210), ( 215,  215))
+#block
+draw_line((  98,  180), ( 147,  196))
+#block
+draw_line(( 579,  413), ( 751,  383))
+draw_line(( 751,  383), ( 779,  382))
+draw_line(( 779,  382), ( 804,  420))
+#block
+draw_line(( 750,  382), ( 583,  380))
+#block
+draw_line(( 535,  373), ( 495,  374))
+#block
+draw_line(( 431,  371), ( 321,  374))
+#block
+draw_line(( 293,  376), ( 254,  376))
+#block
+draw_line((1115,  344), (1140,  335))
+draw_line((1140,  335), ( 253,  324))
+draw_line(( 253,  324), ( 249,  421))
+draw_line(( 249,  421), ( 197,  426))
+#block
+draw_line(( 201,  316), ( 297,  323))
+draw_line(( 297,  323), ( 297,  417))
+draw_line(( 297,  417), ( 248,  425))
+#block
+draw_line(( 312,  324), ( 293,  321))
+#block
+draw_line(( 314,  324), ( 313,  421))
+
+# update display
+pygame.display.update()
+
+# hang indefinately untill user exists
+while 1:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            sys.exit()
