@@ -9,3 +9,4 @@
   - [ ] Parallelize this
 - [ ] IIITDM Main Entrance
 - [x] Dancing Animation
+- [x] Basic Drawing using Javascript
