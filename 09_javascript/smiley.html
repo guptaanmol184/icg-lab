@@ -1,0 +1,46 @@
+<html>
+    <style type="text/css">
+        #myCanvas {
+            border: 5px solid blue;
+        }
+    </style>
+    <title>ICG Exercise</title>
+    <body>
+        <canvas id="myCanvas" width="600" height="300"></canvas>
+    </body>
+    <script type="text/javascript">
+        var canvas = document.getElementById("myCanvas");
+        if (canvas.getContext) {
+            var ctx = canvas.getContext('2d');
+
+            // smiley
+            ctx.beginPath();
+            ctx.arc(75, 75, 50, 0, Math.PI * 2, true); // Outer circle
+            ctx.fillStyle = "#FFFF44";
+            ctx.fill();
+            
+            ctx.beginPath();
+            ctx.moveTo(110, 75);
+            ctx.arc(75, 75, 35, 0, Math.PI, false);  // Mouth (clockwise)
+            ctx.fillStyle = "#FF88FF";
+            ctx.fill();
+
+            ctx.beginPath();
+            ctx.moveTo(65, 65);
+            ctx.arc(60, 60, 5, 0, Math.PI * 2, true);  // Left eye
+            ctx.fillStyle = "#FFFFFF";
+            ctx.fill();
+
+            ctx.beginPath();
+            ctx.moveTo(95, 65);
+            ctx.arc(90, 60, 5, 0, Math.PI * 2, true);  // Right eye
+            ctx.fillStyle = "#FFFFFF";
+            ctx.fill();
+            //ctx.stroke();
+        } else {
+            // canvas-unsupported code here
+            var canvas = document.getElementById("myCanvas");
+            canvas.innerHTML = "Your browser does not support drawing. Please use a updated browser.";
+        }
+    </script>
+</html>
