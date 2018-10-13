@@ -7,6 +7,6 @@
 - [x] Lévy C curve
 - [x] Koch snowflake
   - [ ] Parallelize this
-- [ ] IIITDM Main Entrance
+- [x] IIITDM Main Entrance
 - [x] Dancing Animation
 - [x] Basic Drawing using Javascript
